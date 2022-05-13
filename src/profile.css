@@ -1,0 +1,19 @@
+
+.fn{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.reg{
+    width: 50%;
+}
+
+
+
+.required:after {
+    content:" *";
+    color: red;
+}
